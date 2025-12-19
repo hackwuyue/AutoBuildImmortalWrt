@@ -61,6 +61,22 @@ PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
 # 静态文件服务器dufs(推荐)
 PACKAGES="$PACKAGES luci-i18n-dufs-zh-cn"
 
+#额外增加，by五月
+PACKAGES="$PACKAGES luci-app-cloudflared"
+PACKAGES="$PACKAGES luci-i18n-cloudflared-zh-cn"
+PACKAGES="$PACKAGES luci-app-ddns-go"
+PACKAGES="$PACKAGES luci-i18n-ddns-go-zh-cn"
+PACKAGES="$PACKAGES luci-app-frpc"
+PACKAGES="$PACKAGES luci-i18n-frpc-zh-cn"
+PACKAGES="$PACKAGES luci-app-frps"
+PACKAGES="$PACKAGES luci-i18n-frps-zh-cn"
+PACKAGES="$PACKAGES luci-app-openlist"
+PACKAGES="$PACKAGES luci-i18n-openlist-zh-cn"
+PACKAGES="$PACKAGES luci-app-rustdesk-server"
+PACKAGES="$PACKAGES luci-i18n-rustdesk-server-zh-cn"
+PACKAGES="$PACKAGES luci-app-upnp"
+PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
+
 # 第三方软件包 合并
 # ======== shell/custom-packages.sh =======
 if [ "$PROFILE" = "glinet_gl-axt1800" ] || [ "$PROFILE" = "glinet_gl-ax1800" ]; then
