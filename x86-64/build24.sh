@@ -63,6 +63,27 @@ PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
 # 静态文件服务器dufs(推荐)
 PACKAGES="$PACKAGES luci-i18n-dufs-zh-cn"
+
+#额外增加，by五月
+PACKAGES="$PACKAGES luci-app-cloudflared"
+PACKAGES="$PACKAGES luci-i18n-cloudflared-zh-cn"
+PACKAGES="$PACKAGES luci-app-ddns-go"
+PACKAGES="$PACKAGES luci-i18n-ddns-go-zh-cn"
+PACKAGES="$PACKAGES luci-app-frpc"
+PACKAGES="$PACKAGES luci-i18n-frpc-zh-cn"
+PACKAGES="$PACKAGES luci-app-frps"
+PACKAGES="$PACKAGES luci-i18n-frps-zh-cn"
+PACKAGES="$PACKAGES luci-app-openlist"
+PACKAGES="$PACKAGES luci-i18n-openlist-zh-cn"
+PACKAGES="$PACKAGES luci-app-rustdesk-server"
+PACKAGES="$PACKAGES luci-i18n-rustdesk-server-zh-cn"
+PACKAGES="$PACKAGES luci-app-upnp"
+PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
+
+
+
+
+
 # ======== shell/custom-packages.sh =======
 # 合并imm仓库以外的第三方插件
 PACKAGES="$PACKAGES $CUSTOM_PACKAGES"
